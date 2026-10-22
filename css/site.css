@@ -151,6 +151,7 @@ a:hover { color: var(--white); }
 .foot p { margin: 0; font-size: .88rem; color: var(--soft); max-width: 70em; }
 .foot a { color: var(--cyan); }
 .foot .copy { color: var(--muted); }
+.foot .founder { font-size: .8rem; letter-spacing: .04em; color: var(--soft); }
 
 @media (max-width: 760px) {
   .cards { grid-template-columns: 1fr; gap: 20px; }
