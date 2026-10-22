@@ -150,6 +150,9 @@ a:hover { color: var(--white); }
 .foot-inner { max-width: 1200px; margin: 0 auto; padding: 28px clamp(20px, 4vw, 48px) 36px; display: flex; flex-direction: column; gap: 12px; }
 .foot p { margin: 0; font-size: .88rem; color: var(--soft); max-width: 70em; }
 .foot a { color: var(--cyan); }
+.foot .contact { font-size: .92rem; color: var(--muted); letter-spacing: .02em; }
+.foot .contact a { margin-left: .4em; font-weight: 600; text-decoration: none; background: linear-gradient(100deg, var(--sky), var(--cyan)); -webkit-background-clip: text; background-clip: text; color: transparent; border-bottom: 1px solid rgba(45,189,247,.45); }
+.foot .contact a:hover { color: var(--white); -webkit-text-fill-color: var(--white); border-bottom-color: var(--white); }
 .foot .copy { color: var(--muted); }
 .foot .founder { font-size: .8rem; letter-spacing: .04em; color: var(--soft); }
 
